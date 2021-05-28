@@ -9,11 +9,11 @@ namespace LogicalProgrammes
 {
     class StopWatch
     {
-        public void StopWatch()
-        {
-            string time = DateTime.Now.ToString("h:mm:ss tt");
-            Console.WriteLine("The current time is"+ time);
-        }
+        //public void StopWatch()
+        //{
+            //string time = DateTime.Now.ToString("h:mm:ss tt");
+            //Console.WriteLine("The current time is"+ time);
+        //}
         
     }
 }
