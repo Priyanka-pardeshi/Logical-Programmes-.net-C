@@ -14,10 +14,10 @@ namespace LogicalProgrammes
             //febo
             Console.WriteLine("Welcome to Logical Programs of C#");
             Console.WriteLine("Enter ypur choice :");
-            Console.WriteLine("1:febo");
-            Console.WriteLine("2:perfect");
-            Console.WriteLine("3:Prime");
-            Console.WriteLine("4:Reverse");
+            Console.WriteLine("1:febonacci");
+            Console.WriteLine("2:perfect number");
+            Console.WriteLine("3:Prime number");
+            Console.WriteLine("4:Reverse Number");
             Console.WriteLine("5: Stopwatch");
        
             int choice =Convert.ToInt32(Console.ReadLine());
@@ -31,7 +31,6 @@ namespace LogicalProgrammes
                     objFebonacci.Febonaccii(inputFebonacii);
                     break;
                 case 2:
-
                     //Perfect
                     PerfectNumber objPerfect = new PerfectNumber();
                     Console.WriteLine("Enter number to check is perfect or not:");
@@ -61,8 +60,8 @@ namespace LogicalProgrammes
                     objReverse.ReverseNumber(inputRevers);
                     break;
                 case 5:
-                    StopWatch objStopWatch = new StopWatch();
-                    objStopWatch.StopWatch();
+                    //StopWatch objStopWatch = new StopWatch();
+                    //objStopWatch.StopWatch();
                     break;
 
                 default :

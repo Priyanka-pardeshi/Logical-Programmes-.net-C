@@ -12,7 +12,7 @@ namespace LogicalProgrammes
         public void StopWatch()
         {
             string time = DateTime.Now.ToString("h:mm:ss tt");
-            Console.WriteLine("The current time is {0}", time);
+            Console.WriteLine("The current time is"+ time);
         }
         
     }
